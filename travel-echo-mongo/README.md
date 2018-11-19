@@ -70,7 +70,7 @@ Response
 {
   "id": "58465b4ea6fe886d3215c6df",
   "email": "test@test.com",
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODEyNjUxMjgsImlkIjoiNTg0NjViNGVhNmZlODg2ZDMyMTVjNmRmIn0.1IsGGxko1qMCsKkJDQ1NfmrZ945XVC9uZpcvDnKwpL0"
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDI4NjAxMDUsImlkIjoiNWJmMjI4YTc1OTZhOTcyNDc0ODI5NTU1In0.UNN--g2Mn5y0JDFxo1XLmtu_rmvdTATSIKovVrC_vYo"
 }
 ```
 Client has now to implement token management.
@@ -91,7 +91,7 @@ Request
 curl \
   -X POST \
   http://localhost:1323/posts \
-  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODEyNjUxMjgsImlkIjoiNTg0NjViNGVhNmZlODg2ZDMyMTVjNmRmIn0.1IsGGxko1qMCsKkJDQ1NfmrZ945XVC9uZpcvDnKwpL0" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDI4NjAxMDUsImlkIjoiNWJmMjI4YTc1OTZhOTcyNDc0ODI5NTU1In0.UNN--g2Mn5y0JDFxo1XLmtu_rmvdTATSIKovVrC_vYo" \
   -H "Content-Type: application/json" \
   -d '{"name":"Singapore","desc":"Singapore Description","attractions":["Merlion","Marina Bay Sands"]}'
 ```
@@ -126,7 +126,7 @@ Request
 curl \
   -X POST \
   http://localhost:1323/posts \
-  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODEyNjUxMjgsImlkIjoiNTg0NjViNGVhNmZlODg2ZDMyMTVjNmRmIn0.1IsGGxko1qMCsKkJDQ1NfmrZ945XVC9uZpcvDnKwpL0" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDI4NjAxMDUsImlkIjoiNWJmMjI4YTc1OTZhOTcyNDc0ODI5NTU1In0.UNN--g2Mn5y0JDFxo1XLmtu_rmvdTATSIKovVrC_vYo" \
   -H "Content-Type: application/json" \
 ```
 Response
@@ -162,7 +162,7 @@ Request
 curl \
   -X POST \
   http://localhost:1323/posts \
-  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODEyNjUxMjgsImlkIjoiNTg0NjViNGVhNmZlODg2ZDMyMTVjNmRmIn0.1IsGGxko1qMCsKkJDQ1NfmrZ945XVC9uZpcvDnKwpL0" \
+  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NDI4NjAxMDUsImlkIjoiNWJmMjI4YTc1OTZhOTcyNDc0ODI5NTU1In0.UNN--g2Mn5y0JDFxo1XLmtu_rmvdTATSIKovVrC_vYo" \
   -H "Content-Type: application/json" \
 ```
 Response
