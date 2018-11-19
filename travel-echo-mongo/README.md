@@ -1,6 +1,6 @@
 # Travel API using Go + echo + mgo
 
-## Running (DCOKER)
+## Running (DOCKER)
 Run `docker-compose up -d`
 
 ## Running (OFFLINE)
@@ -183,4 +183,5 @@ Response
 
 ## TODO
 Implement unit test (limited time)
+
 Implement other logic (limited time)
