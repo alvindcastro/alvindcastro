@@ -179,7 +179,7 @@ Response
 ```
 
 ## License
-[BSD 3-Clause](https://github.com/alvindcastro/travel-echo-mongo/blob/master/LICENSE)
+[BSD 3-Clause](https://github.com/alvindcastro/alvindcastro/tree/master/travel-echo-mongo/LICENSE)
 
 ## TODO
 Implement unit test (limited time)
