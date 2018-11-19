@@ -1,5 +1,10 @@
 # Travel API using Go + echo + mgo
 
+### Frameworks | Tools
+1. [echo](https://echo.labstack.com/) - Go web framework | High performance, extensible, minimalist
+2. [mgo](https://gopkg.in/mgo.v2) - Go Mongo DB Driver
+3. [jwt-go](https://github.com/dgrijalva/jwt-go) - Go implementation of JSON Web Tokens [JWT](http://self-issued.info/docs/draft-ietf-oauth-json-web-token.html)
+
 ## Running (DOCKER)
 Run `docker-compose up -d`
 
