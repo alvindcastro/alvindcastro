@@ -18,17 +18,6 @@
   revision = "de5bf2ad457846296e2031421a34e2568e304e35"
 
 [[projects]]
-  branch = "master"
-  digest = "1:a74730e052a45a3fab1d310fdef2ec17ae3d6af16228421e238320846f2aaec8"
-  name = "github.com/alecthomas/template"
-  packages = [
-    ".",
-    "parse",
-  ]
-  pruneopts = ""
-  revision = "a0175ee3bccc567396460bf5acd36800cb10c49c"
-
-[[projects]]
   digest = "1:bb522d6790c531be0b6631f1110e47623d3307672d66749054fa31ddd8878a7d"
   name = "github.com/dgrijalva/jwt-go"
   packages = ["."]
@@ -132,20 +121,9 @@
   branch = "master"
   digest = "1:597e91ec668152a0e2ffa20d2b737294970d403ee07b67f3e236b7068e6fd6a6"
   name = "github.com/swaggo/echo-swagger"
-  packages = [
-    ".",
-    "example/docs",
-  ]
+  packages = ["example/docs"]
   pruneopts = ""
   revision = "97f46bb9e5a5e9f57ebd6021e61d6174b6cfd973"
-
-[[projects]]
-  branch = "master"
-  digest = "1:90c7fa1c95f964bf4c9cbc3741c1fe78fc90e4a02ab0fcc54c28d952b86f164a"
-  name = "github.com/swaggo/files"
-  packages = ["."]
-  pruneopts = ""
-  revision = "49c8a91ea3fafab040bb3da430dbd76d67448bd6"
 
 [[projects]]
   digest = "1:9406cee913ec1c588a7bbd6dabfe28185d8ecdcf363e4b63622d962fcf4a0693"
@@ -186,12 +164,7 @@
   branch = "master"
   digest = "1:4ac199b027ed34460ec4e0a92c882156f561e78cd046fef095e50f867462435a"
   name = "golang.org/x/net"
-  packages = [
-    "context",
-    "idna",
-    "webdav",
-    "webdav/internal/xml",
-  ]
+  packages = ["idna"]
   pruneopts = ""
   revision = "adae6a3d119ae4890b46832a2e88a95adc62b8e7"
 
@@ -266,14 +239,11 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/alecthomas/template",
     "github.com/dgrijalva/jwt-go",
     "github.com/labstack/echo",
     "github.com/labstack/echo/middleware",
     "github.com/labstack/gommon/log",
-    "github.com/swaggo/echo-swagger",
     "github.com/swaggo/echo-swagger/example/docs",
-    "github.com/swaggo/swag",
     "gopkg.in/mgo.v2",
     "gopkg.in/mgo.v2/bson",
   ]
